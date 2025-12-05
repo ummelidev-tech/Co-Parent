@@ -1,0 +1,15 @@
+# Settings for Cloud Run (optional for static sites, but good practice)
+runConfig:
+  cpu: 1 # Assign 1 CPU unit
+  memoryMiB: 512 # Assign 512 MB of memory
+  concurrency: 80 # Handle up to 80 concurrent requests per instance
+
+# Environment variables and secrets (optional for your current app, but common)
+# env:
+#   - variable: MY_API_KEY
+#     value: your_public_api_key_here
+#     availability:
+#       - BUILD
+#       - RUNTIME
+#   - variable: MY_SECRET_KEY
+#     secret: mySecretName
