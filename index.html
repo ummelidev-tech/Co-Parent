@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Co-Parenting Village</title>
     <style>
-        /* This section sets your Bottle Green colors and Background */
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             background-color: #00332c; /* Deep Bottle Green */
-            background-image: linear-gradient(rgba(0, 51, 44, 0.8), rgba(0, 51, 44, 0.8)), 
+            background-image: linear-gradient(rgba(0, 51, 44, 0.85), rgba(0, 51, 44, 0.85)), 
                               url('https://images.unsplash.com/photo-1523800378286-dae3f0bc76fd?q=80&w=1000&auto=format&fit=crop'); 
             background-size: cover;
             background-position: center;
@@ -24,27 +23,35 @@
 
         .container { 
             max-width: 500px; 
-            background: rgba(255, 255, 255, 0.95); /* Slight see-through white */
+            background: rgba(255, 255, 255, 0.98); 
             padding: 40px; 
             border-radius: 30px; 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.3); 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4); 
             text-align: center; 
         }
 
-        h1 { color: #004d40; margin-bottom: 5px; font-size: 28px; }
-        .tagline { color: #2e7d32; font-style: italic; margin-bottom: 30px; font-weight: 500; }
+        h1 { color: #004d40; margin-bottom: 5px; font-size: 32px; font-weight: 800; }
+        
+        /* Your updated subtitle */
+        .subtitle { 
+            color: #2e7d32; 
+            font-style: italic; 
+            margin-bottom: 30px; 
+            font-size: 18px;
+            font-weight: 500;
+        }
 
         .advice-card { 
             background-color: #f1f8e9; 
             border-radius: 15px; 
-            padding: 20px; 
+            padding: 25px; 
             margin: 20px 0; 
             text-align: left; 
             border-left: 8px solid #00695c; 
         }
 
         .button { 
-            background-color: #2e7d32; /* Forest Green Button */
+            background-color: #2e7d32; 
             color: white; 
             padding: 16px 35px; 
             border: none; 
@@ -52,29 +59,32 @@
             cursor: pointer; 
             font-size: 18px; 
             font-weight: bold; 
-            box-shadow: 0 4px 15px rgba(46, 125, 50, 0.4);
             transition: 0.3s;
         }
 
-        .button:hover { background-color: #1b5e20; transform: translateY(-2px); }
+        .button:hover { background-color: #1b5e20; transform: scale(1.05); }
         
-        .community-icon { font-size: 50px; margin-bottom: 10px; }
+        .tree-icon { font-size: 60px; margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="community-icon">🌳</div>
+        <div class="tree-icon">🌳</div>
         <h1>The Co-Parenting Village</h1>
-        <p class="tagline">"Consulting together under the Baobab tree"</p>
+        <p class="subtitle">"It takes a village to raise a child"</p>
         
         <div class="advice-card">
-            <strong>🌳 Village Wisdom:</strong>
-            <p>In our village, we speak with kindness. When communicating with a co-parent, wait 10 minutes before replying to a difficult message. Peace builds a better home for the child.</p>
+            <strong>💡 Consultation Under the Tree:</strong>
+            <p>Welcome to our community. Here, we consult with one another to ensure our children grow up with peace, love, and consistency between homes.</p>
         </div>
 
-        <button class="button" onclick="alert('The Village Elders are listening! Soon you can share your advice here.')">Share Your Wisdom</button>
+        <button class="button" onclick="alert('The Village is gathering! Soon you will be able to join the conversation.')">Enter the Village</button>
     </div>
 
 </body>
 </html>
+
+</body>
+</html>
+
