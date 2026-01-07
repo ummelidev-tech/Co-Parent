@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Village Square</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            background-color: #00332c; 
+            margin: 0; padding: 20px; 
+            display: flex; justify-content: center; align-items: center; min-height: 100vh;
+        }
+        .container { 
+            max-width: 450px; width: 100%; background: white; 
+            padding: 35px; border-radius: 30px; text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+        }
+        h1 { color: #004d40; margin-bottom: 10px; }
+        p { color: #555; margin-bottom: 25px; line-height: 1.5; }
+        
+        .btn-link { text-decoration: none; display: block; margin-bottom: 15px; }
+        .button { 
+            width: 100%; padding: 18px; border: none; border-radius: 50px; 
+            cursor: pointer; font-size: 18px; font-weight: bold; color: white; transition: 0.3s;
+        }
+        .back-btn { display: inline-block; margin-top: 20px; color: #2e7d32; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Square</h1>
+        <p>Choose a corner of the village to visit today.</p>
+
+        <a href="challenges.html" class="btn-link">
+            <button class="button" style="background-color: #cc5500;">🔥 The Council Fire</button>
+        </a>
+
+        <a href="wisdom.html" class="btn-link">
+            <button class="button" style="background-color: #2e7d32;">📖 The Wisdom Wall</button>
+        </a>
+
+        <a href="resources.html" class="btn-link">
+            <button class="button" style="background-color: #558b2f;">📍 Village Resources</button>
+        </a>
+
+        <a href="index.html" class="back-btn">← Leave the Village</a>
+    </div>
+</body>
+</html>
