@@ -5,83 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Co-Parenting Village</title>
     <style>
-        /* Base Setup */
         body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-family: 'Segoe UI', sans-serif; 
             background-color: #00332c; 
-            margin: 0; 
-            padding: 20px; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            min-height: 100vh;
+            margin: 0; padding: 20px; 
+            display: flex; justify-content: center; align-items: center; min-height: 100vh;
         }
-
-        /* The White Container */
         .container { 
-            max-width: 450px; 
-            width: 90%; 
-            background: #ffffff; 
-            padding: 30px; 
-            border-radius: 30px; 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.5); 
-            text-align: center;
-            display: block !important; /* Forces it to show */
+            max-width: 450px; width: 100%; background: white; 
+            padding: 40px; border-radius: 30px; text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
         }
-
-        h1 { color: #004d40; margin-bottom: 5px; font-size: 28px; }
-        .subtitle { color: #2e7d32; font-style: italic; margin-bottom: 25px; font-size: 16px; }
-
-        /* Button Styles */
-        .btn-link { text-decoration: none; display: block; margin-bottom: 12px; }
+        h1 { color: #004d40; margin-bottom: 5px; }
+        .subtitle { color: #2e7d32; font-style: italic; margin-bottom: 30px; }
         .button { 
-            width: 100%; 
-            padding: 16px; 
-            border: none; 
-            border-radius: 50px; 
-            cursor: pointer; 
-            font-size: 18px; 
-            font-weight: bold; 
-            color: white; 
-            transition: 0.3s;
+            background-color: #2e7d32; width: 100%; padding: 18px; 
+            border-radius: 50px; color: white; font-weight: bold; 
+            font-size: 18px; border: none; cursor: pointer; transition: 0.3s;
         }
-
-        .advice-card { 
-            background-color: #f1f8e9; 
-            border-radius: 15px; 
-            padding: 15px; 
-            margin-top: 20px; 
-            text-align: left; 
-            border-left: 6px solid #00695c; 
-            font-size: 14px;
-        }
+        .button:hover { background-color: #1b5e20; transform: scale(1.02); }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div style="font-size: 50px; margin-bottom: 10px;">🌳</div>
+        <div style="font-size: 60px; margin-bottom: 10px;">🌳</div>
         <h1>The Co-Parenting Village</h1>
         <p class="subtitle">"It takes a village to raise a child"</p>
         
-        <a href="challenges.html" class="btn-link">
-            <button class="button" style="background-color: #cc5500;">🔥 Ask the Council</button>
+        <a href="village.html" style="text-decoration: none;">
+            <button class="button">Enter the Village</button>
         </a>
-
-        <a href="wisdom.html" class="btn-link">
-            <button class="button" style="background-color: #2e7d32;">📖 Wisdom Wall</button>
-        </a>
-
-        <a href="resources.html" class="btn-link">
-            <button class="button" style="background-color: #558b2f;">📍 View Resources</button>
-        </a>
-
-        <div class="advice-card">
-            <strong>💡 Today's Thought:</strong>
-            <p>Peace in the village starts with peace in our hearts. Welcome back.</p>
-        </div>
     </div>
 
 </body>
 </html>
+
 
